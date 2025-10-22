@@ -36,7 +36,7 @@ A comprehensive tool for migrating calendar events from Microsoft 365 (Outlook) 
 
 1. **Clone or download this repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Jorxx/outlook2google
    cd calendar-migration-tool
    ```
 
