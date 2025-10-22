@@ -1,0 +1,37 @@
+# Calendar Migration Tool Configuration
+# Copy this file to config/migration.conf and update the paths for your environment
+
+# GAM (Google Apps Manager) Configuration
+# Path to your GAM installation
+GAM_PATH="/path/to/your/gam"
+
+# Python Configuration
+# Path to your Python executable
+PYTHON_PATH="/path/to/your/python3"
+
+# Optional: Path to Python virtual environment activation script
+# Leave empty if not using a virtual environment
+PYTHON_ENV=""
+
+# Script Directory
+# Directory containing the Python scripts
+SCRIPT_DIR="$(dirname "$0")/scripts"
+
+# Example configurations for different environments:
+
+# macOS with Homebrew GAM:
+# GAM_PATH="/usr/local/bin/gam"
+# PYTHON_PATH="/usr/local/bin/python3"
+
+# macOS with custom GAM installation:
+# GAM_PATH="ENTER GAM PATH"
+# PYTHON_PATH="ENTER PYTHON3 PATH"
+# PYTHON_ENV="ENTER VENV PATH"
+
+# Linux with system Python:
+# GAM_PATH="/usr/bin/gam"
+# PYTHON_PATH="/usr/bin/python3"
+
+# Windows with WSL:
+# GAM_PATH="/mnt/c/Users/username/bin/gamadv-xtd3/gam.exe"
+# PYTHON_PATH="/usr/bin/python3"

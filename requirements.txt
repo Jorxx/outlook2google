@@ -1,0 +1,24 @@
+# Calendar Migration Tool - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Microsoft Graph API
+requests>=2.25.0
+msal>=1.20.0
+
+# Data processing
+pandas>=1.3.0
+
+# Date/time handling
+python-dateutil>=2.8.0
+
+# JSON handling (built-in, but ensuring compatibility)
+# json - built-in module
+
+# CSV handling (built-in, but ensuring compatibility)  
+# csv - built-in module
+
+# Optional: Enhanced logging
+colorlog>=6.0.0
+
+# Optional: Progress bars
+tqdm>=4.60.0
